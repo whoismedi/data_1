@@ -9,8 +9,6 @@ load_dotenv()
 with open('output.json', 'r') as file:
     data = json.load(file)
 
-import pandas as pd
-
 df = pd.DataFrame(data)
 
 
